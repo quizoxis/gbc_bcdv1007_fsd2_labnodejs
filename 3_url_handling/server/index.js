@@ -71,39 +71,7 @@ http.createServer(function (req, res) {
             }
         });
     });
-
-    // Parse URL Search string query function
-    // let qdata = q.query;
-
-
-    // if (qdata.file2fetch != undefined) {
-    //     let reqFile = qdata.file2fetch;
-    // } else {
-    //
-    //     res.writeHead(301, { "Location": "http://" + req.headers['host'] + '/' });
-    //     return res.end();
-    //
-    // }
-
-    // URL Search String
-    // console.log(`File-To-Fetch: ${reqFile}`);
-
-
-    // Test url http://localhost:3466/?file2fetch=test.html
-
-
-    // Read the file. If it exists send the contents back, if not return a 404 error
-    // fs.readFile(filename, function(err, data) {
-    //     if (err) {
-    //         console.log(`File-Not-Found: ${filename}`);
-    //         res.writeHead(404, {'Content-Type': 'text/html'});
-    //         return res.end("404 Not Found");
-    //     }
-    //     res.writeHead(200, {'Content-Type': 'text/html'});
-    //     res.write(data);
-    //     return res.end();
-    // });
-
+    
 
 }).listen(port);
 
