@@ -15,3 +15,4 @@
 # Labs - FS2_JS_NodeJS
 * Added 0_app
 * Added 1_express
+* Added 2_query_strings
